@@ -1,14 +1,17 @@
 # use "import cs111 as cs" to run the cs111 course files
 
-# Lecture 1 and lecture 2
+# Lectures 1-2
 from cs111.temperature import make_A
 from cs111.temperature import make_A_small
 from cs111.temperature import make_b
 from cs111.temperature import make_b_small
 
-# Lecture 3
+# Lectures 3-5
+from cs111.LU import LUfactor
 from cs111.LU import Lsolve
 from cs111.LU import Usolve
-from cs111.LU import LUfactorNoPiv
-from cs111.LU import LUfactor
 from cs111.LU import LUsolve
+
+# Lecture 6
+# from cs111.iterative import Jsolve
+# from cs111.iterative import CGsolve
