@@ -27,7 +27,7 @@ def Jsolve(A, b, tol = 1e-8, max_iters = 1000, callback = None):
 
     # Split A into diagonal D plus off-diagonal C
     d = A.diagonal()         # diagonal elements of A as a vector
-    # D = np.diag(d)           # diagonal of A as a matrix
+    # D = np.diag(d)           # diagonal of A as a matrix -- DON'T DO THIS, IT CREATES A HUGE DENSE ARRAY.
     C = A.copy()
     C.setdiag(np.zeros(n))   # A without the diagonal
     
