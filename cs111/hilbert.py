@@ -1,3 +1,5 @@
+import numpy as np
+
 def hilbert(n):
     """n-by-n Hilbert matrix, a famous example of an ill-conditioned matrix"""
     A = np.zeros((n,n))

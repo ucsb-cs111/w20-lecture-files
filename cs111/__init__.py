@@ -17,3 +17,4 @@ from cs111.iterative import CGsolve
 from cs111.hilbert import hilbert
 
 from cs111.floatingpoint import print_float64
+from cs111.floatingpoint import bits
