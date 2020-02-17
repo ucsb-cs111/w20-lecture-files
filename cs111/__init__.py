@@ -18,3 +18,5 @@ from cs111.hilbert import hilbert
 
 from cs111.floatingpoint import print_float64
 from cs111.floatingpoint import bits
+
+from cs111.pagerank import pagerank1
