@@ -23,7 +23,7 @@ def pagerank1(E, return_vector = False, max_iters = 1000, tolerance = 1e-6):
     4. Find the dominant eigenvector with the power method.
     5. Sort the eigenvector to get the rankings.
 
-    The homework problem due February 22 asks you to rewrite this code so
+    The homework problem due February 26 asks you to rewrite this code so
     it takes input E as a scipy csr_sparse matrix, and then never creates 
     a full matrix or any large matrix other than E.
     """
