@@ -90,3 +90,5 @@ def pagerank1(E, return_vector = False, max_iters = 1000, tolerance = 1e-6):
         return ranking, vector
     else:
         return ranking
+
+# end of pagerank1()
